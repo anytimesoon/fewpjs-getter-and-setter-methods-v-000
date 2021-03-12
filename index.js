@@ -10,7 +10,7 @@ class Circle {
   }  
   
   set circumference(circumference) {
-    this.circumference;
+    this._circumference = circumference;
   }  
   
   set area(area) {
