@@ -6,11 +6,11 @@ class Circle {
   }
   
   set diameter(diameter) {
-    this._diameter = diameter;
+    this.diameter;
   }  
   
   set circumference(circumference) {
-    this._circumference = circumference;
+    this.circumference;
   }  
   
   set area(area) {
