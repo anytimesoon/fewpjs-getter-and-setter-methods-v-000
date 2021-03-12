@@ -6,30 +6,40 @@ class Circle {
   }
   
   set diameter(diameter) {
-    this._diameter = diameter
+    this._diameter = diameter;
   }  
+  
   set circumference(circumference) {
-    this._circumference = circumference
+    this._circumference = circumference;
   }  
+  
   set area(area) {
-    this._area = area
+    this._area = area;
   }
   
   get diameter(diameter) {
     
   }
+  
+  get circumference(circumference) {
+    
+  }
+  
+  get area(area) {
+    
+  }
 }
 
-class Bird {
-  constructor(name) {
-    this.name = name;
-  }
+// class Bird {
+//   constructor(name) {
+//     this.name = name;
+//   }
  
-  set phrase(phrase) {
-    this._phrase = phrase;
-  }
+//   set phrase(phrase) {
+//     this._phrase = phrase;
+//   }
  
-  get speak() {
-    return `${this.name} says ${this._phrase || 'squawk'}`;
-  }
-}
+//   get speak() {
+//     return `${this.name} says ${this._phrase || 'squawk'}`;
+//   }
+// }
