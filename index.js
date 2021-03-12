@@ -17,15 +17,15 @@ class Circle {
     this._area = area;
   }
   
-  get diameter(diameter) {
+  get diameter() {
     
   }
   
-  get circumference(circumference) {
+  get circumference() {
     
   }
   
-  get area(area) {
+  get area() {
     
   }
 }
