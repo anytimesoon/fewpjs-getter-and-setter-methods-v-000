@@ -4,6 +4,10 @@ class Circle {
   constructor(radius){
     this.radius = radius;
   }
+  
+  set radius(radius){
+    this._radius = radius
+  }
 
   set diameter(diameter) {
     this.radius = this._diameter / 2;
@@ -29,6 +33,10 @@ class Circle {
   
   get area() {
     return Math.PI * (this.radius * this.radius);
+  }
+  
+  get radius() {
+    return this.radius
   }
 }
 
